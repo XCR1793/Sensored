@@ -1731,6 +1731,12 @@
 		(uuid "3991392f-9b06-43b3-bdbc-e58b57fe77a6")
 	)
 	(junction
+		(at 203.2 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "402a4920-888e-414c-96e5-c0cb0b1acd48")
+	)
+	(junction
 		(at 63.5 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1777,6 +1783,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdd30005-db18-4e62-84dc-9545472daaeb")
+	)
+	(junction
+		(at 203.2 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e974ae7a-cd90-4ddc-9f79-e54e7ba597cb")
 	)
 	(no_connect
 		(at 73.66 127)
@@ -2769,6 +2781,72 @@
 			(project "Sensored"
 				(path "/83b90de2-6fa0-4a2d-8dd8-277ebe2ef879"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 203.2 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "284626c3-905c-4fb8-a392-73ed091ea272")
+		(property "Reference" "#PWR033"
+			(at 203.2 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3E"
+			(at 203.2 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 203.2 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "83960557-27ae-4127-9c60-83ccc1d21aac")
+		)
+		(instances
+			(project "Sensored"
+				(path "/83b90de2-6fa0-4a2d-8dd8-277ebe2ef879"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -6092,6 +6170,72 @@
 			(project "Sensored"
 				(path "/83b90de2-6fa0-4a2d-8dd8-277ebe2ef879"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 203.2 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e549ef54-9e42-44d3-9422-93b6b10de783")
+		(property "Reference" "#PWR034"
+			(at 203.2 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDE"
+			(at 203.2 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 203.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 203.2 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "28bbe106-d8d8-4d12-a307-1e13fa49a8e6")
+		)
+		(instances
+			(project "Sensored"
+				(path "/83b90de2-6fa0-4a2d-8dd8-277ebe2ef879"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
