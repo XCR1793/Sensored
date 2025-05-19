@@ -3146,7 +3146,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PWR"
+		(property "Value" "3V3"
 			(at 255.27 52.0699 0)
 			(effects
 				(font
@@ -4232,7 +4232,7 @@
 				)
 			)
 		)
-		(property "Value" "PWR"
+		(property "Value" "3V3"
 			(at 194.818 59.69 0)
 			(effects
 				(font
@@ -4307,7 +4307,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm"
+		(property "Footprint" "Sensor_Motion:InvenSense_QFN-24_3x3mm_P0.4mm_NoMask"
 			(at 60.96 154.94 0)
 			(effects
 				(font
@@ -4729,7 +4729,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PWR"
+		(property "Value" "3V3"
 			(at 229.87 52.0699 0)
 			(effects
 				(font
@@ -4930,7 +4930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PWR"
+		(property "Value" "3V3"
 			(at 208.28 64.7699 90)
 			(effects
 				(font
@@ -4997,7 +4997,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PWR"
+		(property "Value" "3V3"
 			(at 255.27 39.3699 0)
 			(effects
 				(font
@@ -5286,7 +5286,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "PWR"
+		(property "Value" "3V3"
 			(at 229.87 39.3699 0)
 			(effects
 				(font
@@ -5764,7 +5764,7 @@
 				)
 			)
 		)
-		(property "Value" "PWR"
+		(property "Value" "3V3"
 			(at 194.818 64.77 0)
 			(effects
 				(font
