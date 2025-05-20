@@ -2805,12 +2805,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3V3E"
-			(at 203.2 53.34 0)
+		(property "Value" "+3V3"
+			(at 205.74 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -6194,12 +6195,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDE"
-			(at 203.2 88.9 0)
+		(property "Value" "GND"
+			(at 205.74 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
