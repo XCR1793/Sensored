@@ -9,15 +9,11 @@ A simple very dense sensor module which includes an IMU and an environmental sen
 * I2C: Internally Pulled Up 10K
 * LDO: 3V3 input power is stepped down to 1.8v for other IC functions
 
-## [Software](/Software/README.md)
-There is CURRENTLY NO DRIVERS for these as I have not fabricated them yet, however once I do I'll work on it then.
-
 ## [Embedded](/Embedded/README.md)
-There is CURRENTLY NO DOCUMENTATION in this section yet as I have not verified the circuit board and have not tested it yet.
+The Sensored board integrates two key devices: the ICM20948, a 9-axis motion sensor, and the BME280 for environmental monitoring. Designed for direct integration onto host boards, it operates on 3.3 V with onboard regulation for the IMU, providing a compact foundation for motion and environmental sensing in embedded systems.
 
 ## Roadmap
 * Milestones: Fabricating V1.0
 * Milestones: Confirmed V1.0 circuit design
 * Milestones: Fabricating V2.0
-* Work In Progress: Testing V2.0
-* Planned: Add Software Support
+* Milestones: Confirmed V2.0 circuit design
